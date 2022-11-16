@@ -24,7 +24,7 @@ create table product(
 create table order_detail(
 	oID int,
     pID int,
-    odQTY varchar(50),
+    odQTY int,
     unique (oID, pID),
     foreign key (oID) references `order` (oID),
 	foreign key (pID) references product (pID)
