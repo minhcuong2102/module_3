@@ -67,7 +67,7 @@ product p on od.pID=p.pID;
 select c.cName from customer c
 where c.cID not in (select cID from `order`);
 
-select o.oID, o.oDate, sum(p.pPrice*od.odQTY) as oTotalPrice from `order` o
+select o.oID, o.oDate, sum(p.pPrice * od.odQTY) as oTotalPrice from `order` o
 join order_detail od on o.oID = od.oID join
-product p on od.pID=p.pID
+product p on od.pID = p.pID
 group by o.oID;
