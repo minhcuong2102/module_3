@@ -95,3 +95,4 @@ end //
 DELIMITER ;
 
 call deleteProduct(2);
+select * from products;
