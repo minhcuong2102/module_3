@@ -100,7 +100,7 @@ create table dich_vu_di_kem(
 );
 
 create table hop_dong_chi_tiet(
-	ma_hop_dong_di_kem int auto_increment primary key,
+	ma_hop_dong_chi_tiet int auto_increment primary key,
     so_luong int,
     ma_hop_dong int,
     ma_dich_vu_di_kem int,
