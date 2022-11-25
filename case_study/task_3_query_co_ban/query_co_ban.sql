@@ -1,7 +1,7 @@
 use furama_resort;
 
 -- 2. Hiển thị thông tin của tất cả nhân viên có trong hệ thống có tên bắt đầu là một trong các ký tự “H”, “T” hoặc “K” và có tối đa 15 kí tự.
-select * from nhan_vien where (ho_ten like '% H%' or ho_ten like '% T%' or ho_ten like '% K%') and length(ho_ten) <= 15;
+select * from nhan_vien where (ho_ten like 'H%' or ho_ten like 'T%' or ho_ten like 'K%') and char_length(ho_ten) <= 15;
 
 -- 3. Hiển thị thông tin của tất cả khách hàng có độ tuổi từ 18 đến 50 tuổi và có địa chỉ ở “Đà Nẵng” hoặc “Quảng Trị”.
 select * from khach_hang where (round(datediff(curdate(), ngay_sinh) / 365, 0) between 18 and 50) and dia_chi like '%Đà Nẵng' or dia_chi like '%Quảng Trị';
@@ -15,20 +15,23 @@ join dich_vu dv on dv.ma_dich_vu = hd.ma_dich_vu
 join loai_dich_vu ldv on ldv.ma_loai_dich_vu = dv.ma_loai_dich_vu
 where lk.ten_loai_khach = "Diamond"
 group by (kh.ho_ten)
-order by so_lan_dat_phong desc;
+order by so_lan_dat_phong;
 
 -- 5.	Hiển thị ma_khach_hang, ho_ten, ten_loai_khach, ma_hop_dong, ten_dich_vu, ngay_lam_hop_dong, ngay_ket_thuc, tong_tien 
 -- (Với tổng tiền được tính theo công thức như sau: Chi Phí Thuê + Số Lượng * Giá, với Số Lượng và Giá là từ bảng dich_vu_di_kem, hop_dong_chi_tiet)
 -- cho tất cả các khách hàng đã từng đặt phòng. (những khách hàng nào chưa từng đặt phòng cũng phải hiển thị ra).
-select kh.ma_khach_hang, kh.ho_ten, lk.ten_loai_khach, hd.ma_hop_dong, dv.ten_dich_vu, hd.ngay_lam_hop_dong, 
-hd.ngay_ket_thuc, (dv.chi_phi_thue + ifnull(hdct.so_luong, 0) * ifnull(dvdk.gia, 0)) as tong_tien 
-from khach_hang kh left join loai_khach lk on kh.ma_loai_khach = lk.ma_loai_khach
+create view tien_dvdk as
+select hdct.*, sum(dvdk.gia * hdct.so_luong) as gia_tien from dich_vu_di_kem dvdk 
+join hop_dong_chi_tiet hdct on hdct.ma_dich_vu_di_kem = dvdk.ma_dich_vu_di_kem
+group by hdct.ma_hop_dong;
+
+select kh.ma_khach_hang, kh.ho_ten, lk.ten_loai_khach, hd.ma_hop_dong, dv.ten_dich_vu, hd.ngay_lam_hop_dong, hd.ngay_ket_thuc, 
+(ifnull(dv.chi_phi_thue, 0) + ifnull(td.gia_tien, 0)) as tong_tien from khach_hang kh 
+left join loai_khach lk on kh.ma_loai_khach = lk.ma_loai_khach
 left join hop_dong hd on hd.ma_khach_hang = kh.ma_khach_hang
-left join hop_dong_chi_tiet hdct on hd.ma_hop_dong = hdct.ma_hop_dong
-left join dich_vu_di_kem dvdk on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
 left join dich_vu dv on dv.ma_dich_vu = hd.ma_dich_vu
-left join loai_dich_vu ldv on ldv.ma_loai_dich_vu = dv.ma_loai_dich_vu
-group by dv.ten_dich_vu, kh.ho_ten;
+left join tien_dvdk td on td.ma_hop_dong = hd.ma_hop_dong
+group by hd.ma_hop_dong;
 
 -- 6.	Hiển thị ma_dich_vu, ten_dich_vu, dien_tich, chi_phi_thue, ten_loai_dich_vu
 -- của tất cả các loại dịch vụ chưa từng được khách hàng thực hiện đặt từ quý 1 của năm 2021 (Quý 1 là tháng 1, 2, 3).
@@ -82,3 +85,20 @@ and (kh.dia_chi like '% Vinh' or kh.dia_chi like '% Quảng Ngãi');
 -- 12.	Hiển thị thông tin ma_hop_dong, ho_ten (nhân viên), ho_ten (khách hàng), so_dien_thoai (khách hàng), ten_dich_vu,
 -- so_luong_dich_vu_di_kem (được tính dựa trên việc sum so_luong ở dich_vu_di_kem), tien_dat_coc của tất cả các dịch vụ
 -- đã từng được khách hàng đặt vào 3 tháng cuối năm 2020 nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2021.
+select hd.ma_hop_dong, nv.ho_ten, kh.ho_ten, kh.so_dien_thoai, dv.ten_dich_vu, sum(hdct.so_luong) as so_luong_dich_vu_di_kem, hd.tien_dat_coc from hop_dong hd
+join nhan_vien nv on hd.ma_nhan_vien = nv.ma_nhan_vien
+join khach_hang kh on hd.ma_khach_hang = kh.ma_khach_hang
+join dich_vu dv on hd.ma_dich_vu = dv.ma_dich_vu
+join hop_dong_chi_tiet hdct on hd.ma_hop_dong = hdct.ma_hop_dong
+where hd.ma_hop_dong in 
+(
+	select hd.ma_hop_dong from hop_dong hd 
+	where hd.ma_hop_dong in
+		(select hd.ma_hop_dong from hop_dong hd where year(hd.ngay_lam_hop_dong) = 2020 and month(hd.ngay_lam_hop_dong) between 10 and 12)
+    and hd.ma_hop_dong not in
+		(select hd.ma_hop_dong from hop_dong hd where year(hd.ngay_lam_hop_dong) = 2021 and month(hd.ngay_lam_hop_dong) between 1 and 6)
+);
+
+-- 13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng.
+-- (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
+select dvdk.* from dich_vu_di_kem dvdk
