@@ -33,10 +33,12 @@ left join dich_vu dv on dv.ma_dich_vu = hd.ma_dich_vu
 left join tien_dvdk td on td.ma_hop_dong = hd.ma_hop_dong
 group by hd.ma_hop_dong;
 
+drop view tien_dvdk;
+
 -- 6.	Hiển thị ma_dich_vu, ten_dich_vu, dien_tich, chi_phi_thue, ten_loai_dich_vu
 -- của tất cả các loại dịch vụ chưa từng được khách hàng thực hiện đặt từ quý 1 của năm 2021 (Quý 1 là tháng 1, 2, 3).
 select dv.ma_dich_vu, dv.ten_dich_vu, dv.dien_tich, dv.chi_phi_thue, ldv.ten_loai_dich_vu
-from dich_vu dv join loai_dich_vu ldv on dv.ma_dich_vu = ldv.ma_loai_dich_vu
+from dich_vu dv join loai_dich_vu ldv on dv.ma_loai_dich_vu = ldv.ma_loai_dich_vu
 where dv.ma_dich_vu not in (select dv.ma_dich_vu from hop_dong hd
 							join dich_vu dv on dv.ma_dich_vu = hd.ma_dich_vu
 							where month(hd.ngay_lam_hop_dong) between 1 and 3)
@@ -62,7 +64,8 @@ select distinct ho_ten from khach_hang
 union select ho_ten from khach_hang;
 
 -- 9.	Thực hiện thống kê doanh thu theo tháng, nghĩa là tương ứng với mỗi tháng trong năm 2021 thì sẽ có bao nhiêu khách hàng thực hiện đặt phòng.
-select year(ngay_lam_hop_dong), month(ngay_lam_hop_dong), count(ma_hop_dong) as "so_luong_khach_hang" from hop_dong
+select month(ngay_lam_hop_dong) as tháng, count(ma_hop_dong) as "so_luong_khach_hang" from hop_dong
+where year(ngay_lam_hop_dong) = 2021
 group by month(ngay_lam_hop_dong)
 order by year(ngay_lam_hop_dong), month(ngay_lam_hop_dong);
 
@@ -85,20 +88,16 @@ and (kh.dia_chi like '% Vinh' or kh.dia_chi like '% Quảng Ngãi');
 -- 12.	Hiển thị thông tin ma_hop_dong, ho_ten (nhân viên), ho_ten (khách hàng), so_dien_thoai (khách hàng), ten_dich_vu,
 -- so_luong_dich_vu_di_kem (được tính dựa trên việc sum so_luong ở dich_vu_di_kem), tien_dat_coc của tất cả các dịch vụ
 -- đã từng được khách hàng đặt vào 3 tháng cuối năm 2020 nhưng chưa từng được khách hàng đặt vào 6 tháng đầu năm 2021.
-select hd.ma_hop_dong, nv.ho_ten, kh.ho_ten, kh.so_dien_thoai, dv.ten_dich_vu, sum(hdct.so_luong) as so_luong_dich_vu_di_kem, hd.tien_dat_coc from hop_dong hd
+select hd.ma_hop_dong, nv.ho_ten as ho_ten_nhan_vien, kh.ho_ten as ho_ten_khach_hang, kh.so_dien_thoai as sdt_khach_hang, 
+dv.ma_dich_vu, dv.ten_dich_vu, ifnull(hdct.so_luong, 0) as so_luong_dich_vu_di_kem, hd.tien_dat_coc 
+from hop_dong hd
 join nhan_vien nv on hd.ma_nhan_vien = nv.ma_nhan_vien
 join khach_hang kh on hd.ma_khach_hang = kh.ma_khach_hang
 join dich_vu dv on hd.ma_dich_vu = dv.ma_dich_vu
-join hop_dong_chi_tiet hdct on hd.ma_hop_dong = hdct.ma_hop_dong
-where hd.ma_hop_dong in 
-(
-	select hd.ma_hop_dong from hop_dong hd 
-	where hd.ma_hop_dong in
-		(select hd.ma_hop_dong from hop_dong hd where year(hd.ngay_lam_hop_dong) = 2020 and month(hd.ngay_lam_hop_dong) between 10 and 12)
-    and hd.ma_hop_dong not in
-		(select hd.ma_hop_dong from hop_dong hd where year(hd.ngay_lam_hop_dong) = 2021 and month(hd.ngay_lam_hop_dong) between 1 and 6)
-);
+left join hop_dong_chi_tiet hdct on hd.ma_hop_dong = hdct.ma_hop_dong
+where (month(hd.ngay_lam_hop_dong) >= 10 and year(hd.ngay_lam_hop_dong) = 2020) and 
+	dv.ma_dich_vu not in(select hd.ma_dich_vu from hop_dong hd
+						where month(hd.ngay_lam_hop_dong) <= 6 and year(hd.ngay_lam_hop_dong) = 2021);
 
 -- 13.	Hiển thị thông tin các Dịch vụ đi kèm được sử dụng nhiều nhất bởi các Khách hàng đã đặt phòng.
 -- (Lưu ý là có thể có nhiều dịch vụ có số lần sử dụng nhiều như nhau).
-select dvdk.* from dich_vu_di_kem dvdk
