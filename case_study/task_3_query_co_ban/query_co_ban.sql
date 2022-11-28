@@ -178,6 +178,17 @@ set foreign_key_checks = 1;
 update dich_vu_di_kem set gia = gia * 2
 where ma_dich_vu_di_kem in (select * from
 	(
-		
+		select dvdk.ma_dich_vu_di_kem from dich_vu_di_kem dvdk
+        join hop_dong_chi_tiet hdct on dvdk.ma_dich_vu_di_kem = hdct.ma_dich_vu_di_kem
+        join hop_dong hd on hdct.ma_hop_dong = hd.ma_hop_dong
+        where year(ngay_lam_hop_dong) = 2020
+        group by dvdk.ma_dich_vu_di_kem
+        having sum(hdct.so_luong) > 10
 	)
 temp);
+
+-- 20.	Hiển thị thông tin của tất cả các nhân viên và khách hàng có trong hệ thống, thông tin hiển thị bao gồm 
+-- id (ma_nhan_vien, ma_khach_hang), ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi.
+select ma_nhan_vien, ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi from nhan_vien
+union
+select ma_khach_hang, ho_ten, email, so_dien_thoai, ngay_sinh, dia_chi from khach_hang
