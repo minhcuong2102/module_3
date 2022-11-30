@@ -60,10 +60,26 @@ after delete on hop_dong
 for each row
 begin
 	insert into log(table_action, action, message, time)
-value ('contract', 'delete', 'contract table have '+ (select count(contract_id) from contract) + ' records after delete', now());
+	value ('hop_dong', 'delete', 'contract table have '+ (select count(contract_id) from contract) + ' records after delete', now());
 end //
 delimiter ;
 
 drop table log;
 drop trigger tr_xoa_hop_dong;
 
+-- 26.	Tạo Trigger có tên tr_cap_nhat_hop_dong khi cập nhật ngày kết thúc hợp đồng, cần kiểm tra xem thời gian cập nhật có phù hợp hay không,
+-- với quy tắc sau: Ngày kết thúc hợp đồng phải lớn hơn ngày làm hợp đồng ít nhất là 2 ngày. Nếu dữ liệu hợp lệ thì cho phép cập nhật,
+-- nếu dữ liệu không hợp lệ thì in ra thông báo “Ngày kết thúc hợp đồng phải lớn hơn ngày làm hợp đồng ít nhất là 2 ngày” trên console của database.
+delimiter //
+create trigger tr_cap_nhat_hop_dong
+before update on hop_dong
+for each row
+begin
+	if datediff(new.ngay_ket_thuc, old.ngay_lam_hop_dong) < 2 then
+    insert into log(table_action, action, message, time)
+    value ('hop_dong', 'update', 'Ngày kết thúc hợp đồng phải lớn hơn ngày làm hợp đồng ít nhất là 2 ngày', now());
+    end if;
+end //
+delimiter ;
+
+drop trigger tr_cap_nhat_hop_dong;
