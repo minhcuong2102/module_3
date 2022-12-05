@@ -2,44 +2,7 @@ html {
     font-family: "Lucida Sans", sans-serif;
 }
 
-.header{
-    width: 100%;
-    background-color: dodgerblue;
-    position: fixed;
-    top: 0;
-    left: 0;
-
-}
-
-.row li{
-    list-style: none;
-    font-weight: bold;
-    margin-left: -40px;
-}
-
-.content {
-    margin-top: 60px;
-}
-
-.sidebar {
-    padding: 10px;
-}
-
-footer{
-    background-color: whitesmoke;
-    text-align: center;
-    font-size: 12px;
-    padding: 15px;
-}
-
-.row{
-    display: flex;
-    flex-wrap: wrap;
-}
-
-
-/*màn hình điện thoai*/
-@media only screen and (max-width: 740px){
+@media only screen and (max-width:740px){
     .col-s-1 {width: 8.33333%;}
     .col-s-2 {width: 16.66667%;}
     .col-s-3 {width: 25%;}
@@ -52,23 +15,9 @@ footer{
     .col-s-10 {width: 83.33333%;}
     .col-s-11 {width: 91.66667%;}
     .col-s-12 {width: 100%;}
-    /*tăng kích thước font cho dễ đọc*/
-    li{
-        font-size: 40px;
-        text-align: center;
-        color: white;
-    }
-    p{
-        font-size: 35px;
-        color: white;
-    }
-    .title{
-        font-size: 55px;
-        color: white;
-    }
 }
-/*Màn hinh laptop và máy tính bảng*/
-@media only screen and (min-width: 741px)and (max-width: 1240px){
+
+@media only screen and (min-width: 741px) and (max-width: 1240px){
     .col-m-1 {width: 8.33333%;}
     .col-m-2 {width: 16.66667%;}
     .col-m-3 {width: 25%;}
@@ -82,7 +31,7 @@ footer{
     .col-m-11 {width: 91.66667%;}
     .col-m-12 {width: 100%;}
 }
-/*Màn hình máy tính pc và tivi smart*/
+
 @media only screen and (min-width: 1241px){
     .col-l-1 {width: 8.33333%;}
     .col-l-2 {width: 16.66667%;}
@@ -97,3 +46,77 @@ footer{
     .col-l-11 {width: 91.66667%;}
     .col-l-12 {width: 100%;}
 }
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-header{
+    background-color: #444444;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.header{
+    display: flex;
+    cursor: pointer;
+}
+
+.header li{
+    list-style: none;
+    padding: 10px;
+    color: white;
+}
+.header li:hover{
+    background-color: black;
+}
+.login{
+    margin-left: auto;
+}
+
+.content{
+    margin-top: 50px;
+    background-color: lightgrey;
+}
+
+.sidebar-left{
+    text-align: center;
+    width: 90%;
+    background-color: lightgrey;
+}
+
+.sidebar-left li{
+    display: block;
+    list-style: none;
+    cursor: pointer;
+    padding: 10px;
+    color: royalblue;
+}
+
+.center{
+    padding-left: 10px;
+    padding-right: 7px;
+    background-color: white;
+}
+
+.center p{
+    text-align: justify;
+}
+
+.sidebar-right li{
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    padding: 50px;
+    border: 1px solid;
+    margin: 10px;
+}
+
+footer{
+    background-color: grey;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
