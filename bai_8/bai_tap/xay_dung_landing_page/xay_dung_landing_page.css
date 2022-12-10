@@ -1,0 +1,73 @@
+.dropdown-menu {
+    min-width: 200px;
+}
+
+.dropdown-menu.columns-2 {
+    min-width: 400px;
+}
+
+.dropdown-menu.columns-3 {
+    min-width: 600px;
+}
+
+.dropdown-menu li a {
+    padding: 5px 15px;
+    font-weight: 300;
+}
+
+.multi-column-dropdown {
+    list-style: none;
+}
+
+.multi-column-dropdown li a {
+    display: block;
+    clear: both;
+    color: #333333;
+    white-space: normal;
+    text-decoration: none;
+}
+
+.multi-column-dropdown li a:hover {
+    color: #262626;
+    background-color: white;
+}
+
+a{
+    cursor: pointer;
+}
+
+.microsoft-slide {
+    position: relative;
+}
+.content-microsoft, .content-surface {
+    max-width: 36%;
+    position: absolute;
+    top: 9%;
+    left: 5%;
+}
+.content-microsoft h1 {
+    font-size: 90px;
+    top: 0;
+    color: white;
+}
+.content-microsoft p {
+    color: white;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-top: 10px;
+    padding-bottom: 16px;
+}
+.content-surface h1 {
+    font-size: 60px;
+    top: 0;
+    color: black;
+}
+.content-surface p {
+    color: black;
+    font-size: 23px;
+    font-weight: 600;
+    line-height: 36px;
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
