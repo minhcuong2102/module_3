@@ -69,12 +69,11 @@
                 <button class="btn btn-primary" data-toggle="modal" data-target="#deleteModal"
                         onclick="showDeleteForm(${product.getId()}, '${product.getName()}')">Xoá
                 </button>
-                <!-- Modal -->
-
             </td>
         </tr>
     </c:forEach>
 </table>
+
 <div class="modal fade" id="deleteModal" data-bs-backdrop="static" data-bs-keyboard="false"
      tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">

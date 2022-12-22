@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5d9b4937-74c4-431c-ac96-1b87e0d731b1" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/controller/UserServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/model/User.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/BaseRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/IUserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/UserRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/service/IUserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/classes/java/main/service/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/libs/quan_li_nguoi_dung-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/config/UTF8Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/IUserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/user/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_nguoi_dung.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/java/dao/IUserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/java/dao/UserDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/java/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/webapp/view/user/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/webapp/view/user/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thuc_hanh/quan_ly_user/src/main/webapp/view/user/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_11/bai_tap/quan_li_san_pham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_11/bai_tap/quan_li_san_pham/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../bai_11/bai_tap/quan_li_san_pham/src/main/webapp/product/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../bai_11/bai_tap/quan_li_san_pham/src/main/webapp/product/list.jsp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectId" id="2J8IWXgjfdzZXBgRD8r812rYpMZ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Codegym\module_3\bai_12\bai_tap\quan_li_nguoi_dung\src\main\webapp" />
+      <recent name="E:\Codegym\module_3\bai_12\bai_tap\quan_li_nguoi_dung\src\main\webapp\view\user" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.70" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.70" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : org.example : quan_li_nguoi_dung-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_quan_li_nguoi_dung" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="57461" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : org.example : quan_li_nguoi_dung-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5d9b4937-74c4-431c-ac96-1b87e0d731b1" name="Default Changelist" comment="" />
+      <created>1671453315184</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1671453315184</updated>
+      <workItem from="1671453316791" duration="6805000" />
+      <workItem from="1671619049054" duration="7494000" />
+      <workItem from="1671711670550" duration="678000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="206" y="244" key="#SQL_Dialects" timestamp="1671457448010">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="206" y="244" key="#SQL_Dialects/0.0.1536.816@0.0.1536.816" timestamp="1671457448010" />
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1671458829734">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1671458829734" />
+    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser" timestamp="1671632667466">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="574" y="111" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1671632667466" />
+    <state x="535" y="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1671457364947">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="535" y="263" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1536.816@0.0.1536.816" timestamp="1671457364947" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1671453910445">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1671453910445" />
+    <state width="1024" height="218" key="GridCell.Tab.0.bottom" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.0.center" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.0.left" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.0.right" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.1.bottom" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.1.center" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.1.left" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.1.right" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.2.bottom" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.2.center" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.2.left" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="218" key="GridCell.Tab.2.right" timestamp="1671712349562">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="218" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1671712349562" />
+    <state width="1024" height="286" key="GridCell.Tab.3.bottom" timestamp="1671628983618">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="286" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1671628983618" />
+    <state width="1024" height="286" key="GridCell.Tab.3.center" timestamp="1671628983618">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="286" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1671628983618" />
+    <state width="1024" height="286" key="GridCell.Tab.3.left" timestamp="1671628983618">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="286" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1671628983618" />
+    <state width="1024" height="286" key="GridCell.Tab.3.right" timestamp="1671628983618">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="1024" height="286" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1671628983618" />
+    <state x="349" y="143" key="IDE.errors.dialog" timestamp="1671458552128">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="349" y="143" key="IDE.errors.dialog/0.0.1536.816@0.0.1536.816" timestamp="1671458552128" />
+    <state x="425" y="185" key="run.anything.popup" timestamp="1671459930235">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="425" y="185" key="run.anything.popup/0.0.1536.816@0.0.1536.816" timestamp="1671459930235" />
+  </component>
+</project>
