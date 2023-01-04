@@ -10,7 +10,7 @@ public class UserRepository implements IUserRepository {
     private static final String SELECT_ALL = "select * from users order by name";
     private static final String INSERT_INTO = "insert into users (name, email, country) values (?, ?, ?)";
     private static final String DELETE_BY_ID = "call delete_user(?)";
-    private static final String UPDATE_USER = "update users set name = ?,email = ?, country = ? where id = ?;";
+    private static final String UPDATE_USER = "update users set name = ?, email = ?, country = ? where id = ?;";
     private static final String SELECT_USER_BY_ID = "select * from users where id = ?";
 
     @Override
@@ -109,16 +109,16 @@ public class UserRepository implements IUserRepository {
         try {
             PreparedStatement preparedStatement = connection.prepareStatement(SELECT_ALL);
             ResultSet resultSet = preparedStatement.executeQuery();
-            while (resultSet.next()){
+            while (resultSet.next()) {
                 int id = resultSet.getInt("id");
                 String name = resultSet.getString("name");
                 String email = resultSet.getString("email");
                 String country = resultSet.getString("country");
                 User user = new User(id, name, email, country);
-                if(nameCountry.equals("")) {
+                if (nameCountry.equals("")) {
                     list.add(user);
-                }else{
-                    if(country.toLowerCase().contains(nameCountry)){
+                } else {
+                    if (country.toLowerCase().contains(nameCountry)) {
                         list.add(user);
                     }
                 }
