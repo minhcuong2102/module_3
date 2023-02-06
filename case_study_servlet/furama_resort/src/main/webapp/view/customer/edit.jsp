@@ -22,80 +22,83 @@
 <div class="row">
     <c:import url="/view/sidebar.jsp"></c:import>
     <div class="col-10">
-        <h1>Chỉnh sửa thông tin khách hàng</h1>
-    </div>
-
-    <div class="col-12 container-fluid">
-        <h2>
-            <a href="/customer">
-                <button class="btn btn-primary">Quay về danh sách khách hàng</button>
-            </a>
-        </h2>
+        <div style="text-align: center">
+            <h1>Chỉnh sửa thông tin khách hàng</h1>
+        </div>
         <p class="text-danger">${mess}</p><br>
-        <form method="post" action="/customer">
-            <table class="table table-light">
-                <tr>
-                    <td>Tên</td>
-                    <td>
-                        <input name="name" placeholder="Nhập tên" style="width: 40%">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Loại khách</td>
-                    <td>
-                        <select name="customerType">
-                            <option value="">--- Chọn loại khách ---</option>
-                            <c:forEach var="customerType" items="${customerTypes}">
-                                <option value="${customerType.customerTypeId}">${customerType.customerTypeName}</option>
-                            </c:forEach>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Ngày sinh</td>
-                    <td>
-                        <input type="date" name="dayOfBirth">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Giới tính</td>
-                    <td>
-                        <select name="gender">
-                            <option value="">--- Chọn giới tính ---</option>
-                            <option value="true">Nam</option>
-                            <option value="false">Nữ</option>
-                        </select>
-                    </td>
-                </tr>
-                <tr>
-                    <td>Mã số</td>
-                    <td>
-                        <input name="idCard" placeholder="Nhập id card">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Số điện thoại</td>
-                    <td>
-                        <input name="phone" placeholder="Nhập số điện thoại">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Email</td>
-                    <td>
-                        <input name="email" placeholder="Nhập email">
-                    </td>
-                </tr>
-                <tr>
-                    <td>Địa chỉ</td>
-                    <td>
-                        <input name="address" placeholder="Nhập địa chỉ">
-                    </td>
-                </tr>
-            </table>
-            <input class="btn btn-primary" type="reset" value="Reset" style="margin-left: 40%"/>
-            <button class="btn btn-primary" type="submit" >Chỉnh sửa khách hàng</button>
-            <input type="hidden" name="action" value="edit">
-        </form>
+        <div class="col-12 container-fluid">
+            <h2>
+                <a href="/customer">
+                    <button class="btn btn-primary">Quay về danh sách khách hàng</button>
+                </a>
+            </h2>
+            <form method="post" action="/customer">
+                <table class="table table-light">
+                    <c:if test="${customer != null}">
+                        <input type="hidden" name="id" value="<c:out value='${customer.id}' />"/>
+                    </c:if>
+                    <tr>
+                        <td>Tên: </td>
+                        <td>
+                            <input name="name" style="width: 40%" value="${customer.name}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Loại khách: </td>
+                        <td>
+                            <select name="customerType">
+                                <option value="${customer.customerType.customerTypeId}">${customer.customerType.customerTypeName}</option>
+                                <c:forEach var="customerType" items="${customerTypes}">
+                                    <c:if test="${customerType.getCustomerTypeId() != customer.customerType.customerTypeId}">
+                                        <option value="${customerType.customerTypeId}">${customerType.customerTypeName}</option>
+                                    </c:if>
+                                </c:forEach>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Ngày sinh: </td>
+                        <td>
+                            <input type="date" name="dayOfBirth" value="${customer.dateOfBirth}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Giới tính: </td>
+                        <td>
+                            <input type="radio" name="gender" value="true" checked = "checked"> Nam
+                            <input type="radio" name="gender" value="false" ${checked}> Nữ
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Mã số: </td>
+                        <td>
+                            <input name="idCard" value="${customer.idCard}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Số điện thoại: </td>
+                        <td>
+                            <input name="phone" value="${customer.phoneNumber}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Email: </td>
+                        <td>
+                            <input name="email" value="${customer.email}">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>Địa chỉ: </td>
+                        <td>
+                            <input name="address" value="${customer.address}">
+                        </td>
+                    </tr>
+                </table>
+                <input class="btn btn-primary" type="reset" value="Reset" style="margin-left: 40%"/>
+                <button class="btn btn-primary" type="submit" >Lưu</button>
+                <input type="hidden" name="action" value="edit">
+            </form>
+        </div>
     </div>
 </div>
 <c:import url="/view/footer.jsp"></c:import>

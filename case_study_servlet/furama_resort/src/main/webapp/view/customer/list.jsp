@@ -31,12 +31,21 @@
         </h2>
         <p class="text-danger">${mess}</p>
 
-        <form action="/customer?action=search" method="get" class="col-12 col-lg-auto mb-3 mb-lg-0 me-lg-3">
-            <input type="search" hidden value="search" name="action">
-            <input type="search" class="form-control" placeholder="Tìm kiếm" name="nameSearch">
-            <button type="submit" class="btn btn-primary" hidden>Tìm kiếm</button>
+        <form action="/customer?action=search" method="get" class="row d-flex">
+            <input name="action" value="search" hidden>
+            <div class="col-md-3">
+                <input type="search" class="form-control" placeholder="Nhập tên" name="nameSearch">
+            </div>
+            <div class="col-md-3">
+                <input type="search" class="form-control" placeholder="Nhập địa chỉ" name="addressSearch">
+            </div>
+            <div class="col-md-3">
+                <input type="search" class="form-control" placeholder="Nhập số điên thoại" name="phoneNumberSearch">
+            </div>
+            <div class="col-md-3">
+                <button type="submit" class="btn btn-primary ">Tìm kiếm</button>
+            </div>
         </form>
-        <br>
 
         <table class="table table-striped">
             <tr>
@@ -71,7 +80,7 @@
                     <td><c:out value="${customer.email}"/></td>
                     <td><c:out value="${customer.address}"/></td>
                     <td>
-                        <a href="/customer?action=edit&id=${customer.id}">
+                        <a href="/customer?action=edit&id=${customer.getId()}">
                             <button class="btn btn-primary">Sửa</button>
                         </a>
                     </td>
@@ -107,7 +116,6 @@
                 </div>
             </div>
         </div>
-
     </div>
 </div>
 <c:import url="/view/footer.jsp"></c:import>

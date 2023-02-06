@@ -119,8 +119,7 @@ public class UserServlet extends HttpServlet {
 
     private void searchUser(HttpServletRequest request, HttpServletResponse response) {
         String nameSearch = request.getParameter("nameSearch");
-        List<User> userList = new ArrayList<>();
-        userList = userService.searchUser(nameSearch);
+        List<User> userList = userService.searchUser(nameSearch);
         request.setAttribute("userList", userList);
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/user/list.jsp");
         try {

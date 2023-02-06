@@ -13,8 +13,9 @@ public class CustomerRepository implements ICustomerRepository {
     private final String INSERT_CUSTOMER = "call insert_customer(?, ?, ?, ?, ?, ?, ?, ?)";
     private final String SELECT_ALL_CUSTOMER_TYPE = "select * from customer_type";
     private final String DELETE_CUSTOMER = "call delete_customer(?)";
-    private final String UPDATE_CUSTOMER = "update customer set customer_type_id = ?, name = ?, date_of_birth = ?, gender = ?, id_card = ?, phone_number = ?, email = ?, address where id = ?";
+    private final String UPDATE_CUSTOMER = "update customer set customer_type_id = ?, name = ?, date_of_birth = ?, gender = ?, id_card = ?, phone_number = ?, email = ?, address = ? where id = ?";
     private final String SELECT_USER_BY_ID = "select c.*, ct.name as ct_name from customer c join customer_type ct on c.customer_type_id = ct.id where c.id = ?";
+    private final String SEARCH_CUSTOMER = "select c.*, ct.name as ct_name from customer c join customer_type ct on c.customer_type_id = ct.id where c.name like ? and c.address  like ? and c.phone_number like ?";
 
     @Override
     public boolean insertCustomer(Customer customer) throws SQLException {
@@ -34,7 +35,6 @@ public class CustomerRepository implements ICustomerRepository {
         } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
-
         return false;
     }
 
@@ -103,7 +103,7 @@ public class CustomerRepository implements ICustomerRepository {
             preparedStatement.setInt(9, customer.getId());
 
             return preparedStatement.executeUpdate() > 0;
-        } catch (SQLException e){
+        } catch (SQLException e) {
             e.printStackTrace();
         }
 
@@ -124,8 +124,39 @@ public class CustomerRepository implements ICustomerRepository {
     }
 
     @Override
-    public List<Customer> search(String nameSearch, String customerTypeSearch) {
-        return null;
+    public List<Customer> search(String nameSearch, String addressSearch, String phoneNumberSearch) {
+        List<Customer> customerList = new ArrayList<>();
+        Connection connection = BaseRepository.getConnectDB();
+        try {
+            PreparedStatement preparedStatement = connection.prepareStatement(SEARCH_CUSTOMER);
+            preparedStatement.setString(1, "%" + nameSearch + "%");
+            preparedStatement.setString(2, "%" + addressSearch + "%");
+            preparedStatement.setString(3, "%" + phoneNumberSearch + "%");
+
+
+            ResultSet resultSet = preparedStatement.executeQuery();
+
+            while (resultSet.next()) {
+                int id = resultSet.getInt("id");
+                int customerTypeId = resultSet.getInt("customer_type_id");
+                String customerTypeName = resultSet.getString("ct_name");
+                CustomerType customerType = new CustomerType(customerTypeId, customerTypeName);
+                String name = resultSet.getString("name");
+                String date = resultSet.getString("date_of_birth");
+                boolean gender = resultSet.getBoolean("gender");
+                String idCard = resultSet.getString("id_card");
+                String customerPhone = resultSet.getString("phone_number");
+                String customerEmail = resultSet.getString("email");
+                String customerAddress = resultSet.getString("address");
+                Customer customer = new Customer(id, customerType, name, date, gender, idCard, customerPhone, customerEmail, customerAddress);
+                customerList.add(customer);
+            }
+            connection.close();
+        } catch (SQLException throwables) {
+            throwables.printStackTrace();
+        }
+
+        return customerList;
     }
 
     @Override

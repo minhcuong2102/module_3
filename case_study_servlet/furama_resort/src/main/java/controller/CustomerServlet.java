@@ -2,8 +2,8 @@ package controller;
 
 import model.customer.Customer;
 import model.customer.CustomerType;
-import service.CustomerService;
-import service.ICustomerService;
+import service.customer.CustomerService;
+import service.customer.ICustomerService;
 
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;
@@ -41,6 +41,7 @@ public class CustomerServlet extends HttpServlet {
     }
 
     private void editCustomer(HttpServletRequest request, HttpServletResponse response) {
+        int id = Integer.parseInt(request.getParameter("id"));
         int customerTypeId = Integer.parseInt(request.getParameter("customerType"));
         CustomerType customerType = new CustomerType(customerTypeId);
         String name = request.getParameter("name");
@@ -50,14 +51,14 @@ public class CustomerServlet extends HttpServlet {
         String phone = request.getParameter("phone");
         String email = request.getParameter("email");
         String address = request.getParameter("address");
-        Customer customer = new Customer(customerType, name, date, gender, idCard, phone, email, address);
+        Customer customer = new Customer(id, customerType, name, date, gender, idCard, phone, email, address);
 
         String mess = "Chỉnh sửa thông tin khách hàng thành công!";
         try {
-            if (!customerService.updateCustomer(customer)){
+            if (!customerService.updateCustomer(customer)) {
                 mess = "Chỉnh sửa thất bại!";
             }
-        } catch (SQLException throwables){
+        } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
         request.setAttribute("mess", mess);
@@ -78,10 +79,10 @@ public class CustomerServlet extends HttpServlet {
 
         String mess = "Thêm khách hàng thành công!";
         try {
-            if (!customerService.insertCustomer(customer)){
+            if (!customerService.insertCustomer(customer)) {
                 mess = "Không thể thêm khách hàng!";
             }
-        } catch (SQLException throwables){
+        } catch (SQLException throwables) {
             throwables.printStackTrace();
         }
         request.setAttribute("mess", mess);
@@ -108,9 +109,28 @@ public class CustomerServlet extends HttpServlet {
                 deleteCustomer(request, response);
                 break;
 
+            case "search":
+                searchCustomer(request, response);
+                break;
+
             default:
                 showListCustomer(request, response);
                 break;
+        }
+    }
+
+    private void searchCustomer(HttpServletRequest request, HttpServletResponse response) {
+        String nameSearch = request.getParameter("nameSearch");
+        String addressSearch = request.getParameter("addressSearch");
+        String phoneNumberSearch = request.getParameter("phoneNumberSearch");
+
+        List<Customer> customerList = customerService.search(nameSearch, addressSearch, phoneNumberSearch);
+        request.setAttribute("customerList", customerList);
+        RequestDispatcher requestDispatcher = request.getRequestDispatcher("view/customer/list.jsp");
+        try {
+            requestDispatcher.forward(request, response);
+        } catch (ServletException | IOException e) {
+            e.printStackTrace();
         }
     }
 
@@ -132,9 +152,15 @@ public class CustomerServlet extends HttpServlet {
 
     private void showEditForm(HttpServletRequest request, HttpServletResponse response) {
         int id = Integer.parseInt(request.getParameter("id"));
-        Customer existingCustomer = customerService.selectIdCustomer(id);
+        Customer customer = customerService.selectIdCustomer(id);
+        List<CustomerType> customerTypes = customerService.selectAllCustomerType();
+        request.setAttribute("customerTypes", customerTypes);
+        request.setAttribute("customer", customer);
+        if (!customer.isGender()){
+            request.setAttribute("checked", "checked = checked");
+        }
         RequestDispatcher dispatcher = request.getRequestDispatcher("view/customer/edit.jsp");
-        request.setAttribute("customer", existingCustomer);
+        request.setAttribute("customer", customer);
         try {
             dispatcher.forward(request, response);
         } catch (ServletException | IOException e) {

@@ -2,168 +2,193 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed9075cf-1167-4530-98e0-a7aab81ab3de" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/fileContent/fileContent.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/6.1/javaCompile/taskHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build/classes/java/main/controller/UserServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build/classes/java/main/dao/IUserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build/classes/java/main/dao/UserDAO.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build/classes/java/main/model/User.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build/libs/quan_ly_user-1.0-SNAPSHOT.war" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/java/controller/UserServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/java/dao/IUserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/java/dao/UserDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/java/model/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/webapp/view/user/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/webapp/view/user/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../bai_13/bai_tap/quan_ly_user/src/main/webapp/view/user/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/case_study_servlet.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/6.1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gradle/vcs-1/gc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/controller/CustomerServlet.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/BaseRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/customer/CustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/customer/ICustomerRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/repository/employee/IEmployeeRepository.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/service/CustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/classes/java/main/service/ICustomerService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/tmp/war/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/UTF8Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/controller/EmployeeServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/customer/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/customer/CustomerType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/Division.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/EducationDegree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/Position.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/user_role/Role.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/user_role/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/model/employee/user_role/UserRole.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/BaseRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/customer/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/customer/ICustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/repository/employee/IEmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/service/ICustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/css/bootstrap.rtl.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.bundle.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.esm.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/bootstrap-5.0.2-dist/js/bootstrap.min.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/customer/create.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/customer/edit.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/customer/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/employee/list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/footer.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/navbar.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/sidebar.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_11/bai_tap/quan_li_san_pham/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_11/bai_tap/quan_li_san_pham/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/controller/FacilityServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/facility/Facility.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/facility/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/facility/RentType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/facility/Room.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/model/facility/Villa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/FacilityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/HouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/IFacilityRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/IHouseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/IRoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/IVillaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/RoomRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/repository/facility/VillaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/FacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/HouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/IFacilityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/IHouseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/IRoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/IVillaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/RoomService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/facility/VillaService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/facility/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/facility/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/view/facility/list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/module3.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/6.1/fileChanges/last-build.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/6.1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.gradle/vcs-1/gc.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build/classes/java/main/config/UTF8Filter.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build/classes/java/main/controller/PTServlet.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build/classes/java/main/repository/PhongTroRepository.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build/classes/java/main/service/PhongTroService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build/libs/thi_thuc_hanh-1.0-SNAPSHOT.war" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/build/tmp/war/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/config/BaseRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/config/UTF8Filter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/controller/PTServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/model/HinhThuc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/model/PhongTro.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/repository/IPhongTroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/repository/PhongTroRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/service/IPhongTroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/java/service/PhongTroService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-grid.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-reboot.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap-utilities.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.rtl.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.rtl.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/css/bootstrap.rtl.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.bundle.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.bundle.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.esm.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.esm.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.esm.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/bootstrap520/js/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bootstrap4.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bootstrap4.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bootstrap5.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bootstrap5.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bulma.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.bulma.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.foundation.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.foundation.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.jqueryui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.jqueryui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.semanticui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/dataTables.semanticui.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/jquery.dataTables.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/css/jquery.dataTables.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/images/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/images/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/images/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/images/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/images/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bootstrap.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bootstrap4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bootstrap4.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bootstrap5.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bootstrap5.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bulma.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.bulma.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.foundation.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.foundation.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.jqueryui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.jqueryui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.semanticui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/dataTables.semanticui.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/jquery.dataTables.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/datatables/js/jquery.dataTables.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/header-footer/footer.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/header-footer/header.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/header-footer/sidebar.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/jquery/jquery-3.5.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/view/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/view/edit.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../thi_thuc_hanh/thi_thuc_hanh/src/main/webapp/view/list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/src/main/java/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/src/main/java/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../bai_12/thuc_hanh/quan_ly_nguoi_dung.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/thuc_hanh/quan_ly_nguoi_dung.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../bai_12/bai_tap/quan_li_nguoi_dung/src/main/java/controller/UserServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../furama_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../furama_database.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/config/UTF8Filter.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/config/UTF8Filter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/controller/CustomerServlet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/customer/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/customer/CustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/repository/customer/ICustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/repository/customer/ICustomerRepository.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/CustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/service/ICustomerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/furama_resort-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/furama_resort-1.0-SNAPSHOT.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/UTF8Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/config/UTF8Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/CustomerServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/customer/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/repository/customer/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/repository/customer/ICustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/customer/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/service/customer/ICustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/customer/create.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/customer/edit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/customer/list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/home.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/view/navbar.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/view/navbar.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -178,9 +203,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Jsp File" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -303,7 +328,17 @@
       <workItem from="1672050694055" duration="7763000" />
       <workItem from="1672397500227" duration="12853000" />
       <workItem from="1672727682035" duration="2887000" />
-      <workItem from="1672798120435" duration="1988000" />
+      <workItem from="1672798120435" duration="7184000" />
+      <workItem from="1672828618916" duration="13537000" />
+      <workItem from="1673000705014" duration="7292000" />
+      <workItem from="1673009606059" duration="1604000" />
+      <workItem from="1673156586770" duration="229000" />
+      <workItem from="1673259964278" duration="8639000" />
+      <workItem from="1673328339343" duration="2081000" />
+      <workItem from="1673395240136" duration="3896000" />
+      <workItem from="1673482998443" duration="2402000" />
+      <workItem from="1673614015292" duration="291000" />
+      <workItem from="1675691443237" duration="42000" />
     </task>
     <servers />
   </component>
@@ -318,96 +353,97 @@
       <screen x="0" y="0" width="1536" height="816" />
     </state>
     <state x="223" y="63" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1536.816@0.0.1536.816" timestamp="1672058000554" />
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1672401274079">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser" timestamp="1672840158920">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1672401274079" />
-    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1672401809088">
+    <state x="574" y="124" key="#com.intellij.ide.util.MemberChooser/0.0.1536.816@0.0.1536.816" timestamp="1672840158920" />
+    <state x="374" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1672834381062">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="360" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816@0.0.1536.816" timestamp="1672401809088" />
-    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1672733717126">
+    <state x="374" y="324" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1536.816@0.0.1536.816" timestamp="1672834381062" />
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1673004609878">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1672733717126" />
-    <state width="1024" height="304" key="GridCell.Tab.0.bottom" timestamp="1672799835103">
+    <state x="0" y="0" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.1536.816@0.0.1536.816" timestamp="1673004609878" />
+    <state x="549" y="163" key="FileChooserDialogImpl" timestamp="1673614247420">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.0.center" timestamp="1672799835103">
+    <state x="549" y="163" key="FileChooserDialogImpl/0.0.1536.816@0.0.1536.816" timestamp="1673614247420" />
+    <state width="1445" height="132" key="GridCell.Tab.0.bottom" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.0.left" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.0.bottom/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.0.center" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.0.right" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.0.center/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.0.left" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.1.bottom" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.0.left/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.0.right" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.1.center" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.0.right/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.1.bottom" timestamp="1673334818929">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.1.left" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.1.bottom/0.0.1536.816@0.0.1536.816" timestamp="1673334818929" />
+    <state width="1445" height="132" key="GridCell.Tab.1.center" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.1.right" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.1.center/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.1.left" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.2.bottom" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.1.left/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.1.right" timestamp="1673334818928">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.2.center" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.1.right/0.0.1536.816@0.0.1536.816" timestamp="1673334818928" />
+    <state width="1445" height="132" key="GridCell.Tab.2.bottom" timestamp="1673334818929">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.2.left" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.2.bottom/0.0.1536.816@0.0.1536.816" timestamp="1673334818929" />
+    <state width="1445" height="132" key="GridCell.Tab.2.center" timestamp="1673334818929">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.2.right" timestamp="1672799835103">
+    <state width="1445" height="132" key="GridCell.Tab.2.center/0.0.1536.816@0.0.1536.816" timestamp="1673334818929" />
+    <state width="1445" height="132" key="GridCell.Tab.2.left" timestamp="1673334818929">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1672799835103" />
-    <state width="1024" height="304" key="GridCell.Tab.3.bottom" timestamp="1672799773374">
+    <state width="1445" height="132" key="GridCell.Tab.2.left/0.0.1536.816@0.0.1536.816" timestamp="1673334818929" />
+    <state width="1445" height="132" key="GridCell.Tab.2.right" timestamp="1673334818929">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1672799773374" />
-    <state width="1024" height="304" key="GridCell.Tab.3.center" timestamp="1672799773374">
+    <state width="1445" height="132" key="GridCell.Tab.2.right/0.0.1536.816@0.0.1536.816" timestamp="1673334818929" />
+    <state width="1421" height="300" key="GridCell.Tab.3.bottom" timestamp="1673002702913">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1672799773374" />
-    <state width="1024" height="304" key="GridCell.Tab.3.left" timestamp="1672799773374">
+    <state width="1421" height="300" key="GridCell.Tab.3.bottom/0.0.1536.816@0.0.1536.816" timestamp="1673002702913" />
+    <state width="1421" height="300" key="GridCell.Tab.3.center" timestamp="1673002702913">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1672799773374" />
-    <state width="1024" height="304" key="GridCell.Tab.3.right" timestamp="1672799773374">
+    <state width="1421" height="300" key="GridCell.Tab.3.center/0.0.1536.816@0.0.1536.816" timestamp="1673002702913" />
+    <state width="1421" height="300" key="GridCell.Tab.3.left" timestamp="1673002702913">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state width="1024" height="304" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1672799773374" />
-    <state x="409" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1671805239292">
+    <state width="1421" height="300" key="GridCell.Tab.3.left/0.0.1536.816@0.0.1536.816" timestamp="1673002702913" />
+    <state width="1421" height="300" key="GridCell.Tab.3.right" timestamp="1673002702913">
       <screen x="0" y="0" width="1536" height="816" />
     </state>
-    <state x="409" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1671805239292" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/controller/CustomerServlet.java</url>
-          <line>133</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state width="1421" height="300" key="GridCell.Tab.3.right/0.0.1536.816@0.0.1536.816" timestamp="1673002702913" />
+    <state width="775" height="415" key="XDebugger.FullValuePopup" timestamp="1672804252750">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state width="775" height="415" key="XDebugger.FullValuePopup/0.0.1536.816@0.0.1536.816" timestamp="1672804252750" />
+    <state x="409" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1672833640743">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="409" y="22" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1536.816@0.0.1536.816" timestamp="1672833640743" />
+    <state x="209" y="0" key="new project wizard" timestamp="1673614304959">
+      <screen x="0" y="0" width="1536" height="816" />
+    </state>
+    <state x="209" y="0" key="new project wizard/0.0.1536.816@0.0.1536.816" timestamp="1673614304959" />
   </component>
 </project>

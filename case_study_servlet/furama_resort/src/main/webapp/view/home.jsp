@@ -50,7 +50,7 @@
                 <a class="nav-link" href="/customer">Customer</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="/service">Service</a>
+                <a class="nav-link" href="/facility">Facility</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/contract">Contract</a>

@@ -36,7 +36,7 @@
             <form method="post" action="/customer">
                 <table class="table table-light">
                     <tr>
-                        <td>Tên</td>
+                        <td>Tên: </td>
                         <td>
                             <input name="name" placeholder="Nhập tên" style="width: 40%">
                         </td>
