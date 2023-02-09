@@ -32,27 +32,28 @@
                         </c:if>
                     </tr>
                     <tr>
-                        <td>Mã phòng trọ: </td>
+                        <td>Mã phòng trọ:</td>
                         <td>
                             <input name="maPhongTro" style="width: 40%" value="${phongTro.maPhongTro}">
                         </td>
                     </tr>
                     <tr>
-                        <td>Tên người thuê: </td>
+                        <td>Tên người thuê:</td>
                         <td>
                             <input name="name" style="width: 40%" value="${phongTro.tenNguoiThueTro}">
-                        </td>0
+                        </td>
+                        0
                     </tr>
                     <tr>
-                        <td>Số điện thoại: </td>
+                        <td>Số điện thoại:</td>
                         <td><input name="phone" style="width: 40%" value="${phongTro.getSoDienThoai()}"></td>
                     </tr>
                     <tr>
-                        <td>Ngày thuê: </td>
+                        <td>Ngày thuê:</td>
                         <td><input type="date" name="date" style="width: 40%" value="${phongTro.getNgayThue()}"></td>
                     </tr>
                     <tr>
-                        <td>Hình thức thanh toán: </td>
+                        <td>Hình thức thanh toán:</td>
                         <td><select name="hinhThucList">
                             <option value="${phongTro.getHinhThuc().getId()}">${phongTro.getHinhThuc().getName()}</option>
                             <c:forEach var="hinhThucList" items="${hinhThucList}">
@@ -64,12 +65,12 @@
                         </td>
                     </tr>
                     <tr>
-                        <td>Ghi chú: </td>
+                        <td>Ghi chú:</td>
                         <td><input name="ghiChu" style="width: 40%" value="${phongTro.getGhiChu()}"></td>
                     </tr>
                 </table>
                 <input class="btn btn-primary" type="reset" value="Reset" style="margin-left: 40%"/>
-                <button class="btn btn-primary" type="submit" >Lưu</button>
+                <button class="btn btn-primary" type="submit">Lưu</button>
                 <input type="hidden" name="action" value="edit">
             </form>
         </div>

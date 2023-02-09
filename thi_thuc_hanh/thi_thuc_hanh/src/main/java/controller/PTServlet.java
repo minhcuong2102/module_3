@@ -87,7 +87,7 @@ public class PTServlet extends HttpServlet {
         showCreateForm(request, response);
     }
 
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest request, HttpServletResponse response) {
         String action = request.getParameter("action");
         if (action == null) {
             action = "";

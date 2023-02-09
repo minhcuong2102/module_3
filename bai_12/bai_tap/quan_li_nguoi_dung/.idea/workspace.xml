@@ -2,34 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5d9b4937-74c4-431c-ac96-1b87e0d731b1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../../Tài liệu/~$-DN Case Study for JSP&amp;Servlet_v1.1.docx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/model/facility/Facility.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/model/facility/RentType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/controller/UserServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/controller/UserServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_database.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_database.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/6.1/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/controller/CustomerServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/controller/CustomerServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/repository/customer/CustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/repository/customer/CustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/repository/customer/ICustomerRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/repository/customer/ICustomerRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/service/CustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/service/CustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/service/ICustomerService.class" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/classes/java/main/service/ICustomerService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/libs/furama_resort-1.0-SNAPSHOT.war" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/build/libs/furama_resort-1.0-SNAPSHOT.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/controller/CustomerServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/controller/CustomerServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/repository/customer/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/repository/customer/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/repository/customer/ICustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/repository/customer/ICustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/service/ICustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/java/service/ICustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/webapp/view/customer/create.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/webapp/view/customer/create.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/webapp/view/customer/edit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/webapp/view/customer/edit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/webapp/view/customer/list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/../../../case_study_servlet/furama_resort/src/main/webapp/view/customer/list.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,7 +46,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../case_study_servlet/furama_resort" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -179,6 +152,7 @@
       <workItem from="1672749009876" duration="594000" />
       <workItem from="1672798099213" duration="2042000" />
       <workItem from="1672828598727" duration="1870000" />
+      <workItem from="1675755585655" duration="1238000" />
     </task>
     <servers />
   </component>

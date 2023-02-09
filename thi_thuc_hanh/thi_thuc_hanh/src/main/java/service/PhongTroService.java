@@ -8,7 +8,7 @@ import repository.PhongTroRepository;
 import java.sql.SQLException;
 import java.util.List;
 
-public class PhongTroService implements IPhongTroService{
+public class PhongTroService implements IPhongTroService {
     private final IPhongTroRepository phongTroRepository = new PhongTroRepository();
 
     @Override
