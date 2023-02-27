@@ -184,3 +184,7 @@ insert into facility values
 	(5, "House Princess 02", 10000, 4000000, 5, 3, 2, "normal", "Có thêm bếp nướng", null, 2, null),
 	(6, "Room Twin 02", 3000, 900000, 2, 4, 3, "normal", "Có tivi", null, null, "1 Xe máy");
     
+insert into song values 
+	(1, "Pop", "J97", "Trịnh Gia", "");
+    
+delete from song;

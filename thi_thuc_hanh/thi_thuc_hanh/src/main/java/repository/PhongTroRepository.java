@@ -1,13 +1,12 @@
 package repository;
 
+import config.BaseRepository;
 import model.HinhThuc;
 import model.PhongTro;
 
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
-
-import config.BaseRepository;
 
 public class PhongTroRepository implements IPhongTroRepository {
     private final String SELECT_ALL = "select p.*, ht.ten_hinh_thuc as ten_hinh_thuc from phong_tro p join hinh_thuc_thanh_toan ht on p.hinh_thuc = ht.ma_hinh_thuc";

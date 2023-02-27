@@ -3,7 +3,6 @@ package config;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.util.List;
 
 public class BaseRepository {
     private static final String URL = "jdbc:mysql://localhost:3306/thi_thuc_hanh_module3"; // sửa lại tên của csdl
